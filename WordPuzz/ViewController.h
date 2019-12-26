@@ -9,6 +9,10 @@
 #import <Cocoa/Cocoa.h>
 
 @interface ViewController : NSViewController
+@property (weak) IBOutlet NSTextField *StartWord;
+@property (weak) IBOutlet NSTextField *EndWord;
+- (IBAction)dotheSearch:(id)sender;
+@property (weak) IBOutlet NSScrollView *displayList;
 
 
 @end

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F77E6A92253AF2B007A54A2 /* NewNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F77E6A82253AF2B007A54A2 /* NewNode.m */; };
+		3F77E6B52253E38C007A54A2 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F77E6B42253E38C007A54A2 /* Queue.m */; };
+		3F77E6B82253E3CC007A54A2 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F77E6B72253E3CC007A54A2 /* Vertex.m */; };
+		3F77E6BB2253E5AA007A54A2 /* Graph.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F77E6BA2253E5AA007A54A2 /* Graph.m */; };
 		3FA238F7224E9B6D0020D5B4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA238F6224E9B6D0020D5B4 /* AppDelegate.m */; };
 		3FA238FA224E9B6D0020D5B4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA238F9224E9B6D0020D5B4 /* ViewController.m */; };
 		3FA238FC224E9B7C0020D5B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA238FB224E9B7C0020D5B4 /* Assets.xcassets */; };
@@ -14,6 +18,7 @@
 		3FA23902224E9B7C0020D5B4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA23901224E9B7C0020D5B4 /* main.m */; };
 		3FA2390D224E9B7D0020D5B4 /* WordPuzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA2390C224E9B7D0020D5B4 /* WordPuzzTests.m */; };
 		3FA23918224E9B7D0020D5B4 /* WordPuzzUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA23917224E9B7D0020D5B4 /* WordPuzzUITests.m */; };
+		3FA23926224E9B950020D5B4 /* 4letterDictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 3FA23925224E9B950020D5B4 /* 4letterDictionary.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +39,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3F77E6A82253AF2B007A54A2 /* NewNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NewNode.m; sourceTree = "<group>"; };
+		3F77E6AA2253AF36007A54A2 /* NewNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NewNode.h; sourceTree = "<group>"; };
+		3F77E6B42253E38C007A54A2 /* Queue.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		3F77E6B62253E396007A54A2 /* Queue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		3F77E6B72253E3CC007A54A2 /* Vertex.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Vertex.m; sourceTree = "<group>"; };
+		3F77E6B92253E3D7007A54A2 /* Vertex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Vertex.h; sourceTree = "<group>"; };
+		3F77E6BA2253E5AA007A54A2 /* Graph.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Graph.m; sourceTree = "<group>"; };
+		3F77E6BC2253E5B5007A54A2 /* Graph.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Graph.h; sourceTree = "<group>"; };
 		3FA238F2224E9B6D0020D5B4 /* WordPuzz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordPuzz.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA238F5224E9B6D0020D5B4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3FA238F6224E9B6D0020D5B4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -50,6 +63,7 @@
 		3FA23913224E9B7D0020D5B4 /* WordPuzzUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordPuzzUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA23917224E9B7D0020D5B4 /* WordPuzzUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WordPuzzUITests.m; sourceTree = "<group>"; };
 		3FA23919224E9B7D0020D5B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FA23925224E9B950020D5B4 /* 4letterDictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = 4letterDictionary.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +122,15 @@
 				3FA238FD224E9B7C0020D5B4 /* Main.storyboard */,
 				3FA23900224E9B7C0020D5B4 /* Info.plist */,
 				3FA23901224E9B7C0020D5B4 /* main.m */,
+				3F77E6A82253AF2B007A54A2 /* NewNode.m */,
+				3F77E6AA2253AF36007A54A2 /* NewNode.h */,
+				3F77E6B72253E3CC007A54A2 /* Vertex.m */,
+				3F77E6B92253E3D7007A54A2 /* Vertex.h */,
+				3F77E6BA2253E5AA007A54A2 /* Graph.m */,
+				3F77E6BC2253E5B5007A54A2 /* Graph.h */,
+				3F77E6B42253E38C007A54A2 /* Queue.m */,
+				3F77E6B62253E396007A54A2 /* Queue.h */,
+				3FA23925224E9B950020D5B4 /* 4letterDictionary.txt */,
 				3FA23903224E9B7C0020D5B4 /* WordPuzz.entitlements */,
 			);
 			path = WordPuzz;
@@ -236,6 +259,7 @@
 			files = (
 				3FA238FC224E9B7C0020D5B4 /* Assets.xcassets in Resources */,
 				3FA238FF224E9B7C0020D5B4 /* Main.storyboard in Resources */,
+				3FA23926224E9B950020D5B4 /* 4letterDictionary.txt in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F77E6B52253E38C007A54A2 /* Queue.m in Sources */,
+				3F77E6B82253E3CC007A54A2 /* Vertex.m in Sources */,
+				3F77E6A92253AF2B007A54A2 /* NewNode.m in Sources */,
+				3F77E6BB2253E5AA007A54A2 /* Graph.m in Sources */,
 				3FA238FA224E9B6D0020D5B4 /* ViewController.m in Sources */,
 				3FA23902224E9B7C0020D5B4 /* main.m in Sources */,
 				3FA238F7224E9B6D0020D5B4 /* AppDelegate.m in Sources */,
